@@ -1,0 +1,18 @@
+  /* Estilo personalizado para el body */
+  body {
+    background-color: deeppink; /* Color de fondo */
+    padding: 20px; /* Espaciado interior */
+}
+/* Estilo personalizado para los encabezados h1 */
+h1 {
+    font-family: 'Arial', sans-serif; /* Fuente particular */
+    font-size: 2.5rem; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+}
+
+.imagen-con-borde {
+    border: 3px solid #007bff; /* Borde sólido de 3px de ancho, color azul */
+    padding: 5px; /* Relleno interno de 5px */
+    border-radius: 50px; /* Bordes redondeados */
+    opacity: .8; /*no es nada*/
+}

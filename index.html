@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos con Bootstrap</title>
+    <!-- Enlace al archivo CSS de Bootstrap 4.5.2 -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Enlace al archivo CSS de Font Awesome 5.15.3 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!--Link para poner un icono a la pagina creada-->
+    <link rel="icon" href="carrera.ico">
+   
+</head>
+<body>
+
+    <!-- Contenedor principal centrado con márgenes -->
+    <div class="container text-center mt-4 opacity-50">
+
+        <!-- Título principal con clase de margen superior y estilos adicionales -->
+        <p class="h1 my-4 font-weight-bold display-4">Universidad Tecnológica de la Huasteca Hidalguense</p>
+        
+        <!-- Imagen del logo con clase de margen superior -->
+        <div class="opacity-25">
+            <!--La etiqueta a es para para dirigirse a un enlace desde la imagen-->
+            <a href="https://www.uthh.edu.mx/" target="_blank">
+                <!--img-fluid es para hacer responsiva la imagen heigt alto with ancho-->
+                <img src="img.logo.png"  class="img-fluid h-30 w-30 my-4 imagen-con-borde " alt="Logo de la universidad">
+            </a>
+        </div>
+        <!-- Párrafos con información de la carrera -->
+        <p class="h2 my-4 font-weight-bold">TSU Tecnologías de la Información</p>
+        <p class="h2 my-4 font-weight-bold">Desarrollo Multiplataforma</p>
+
+        <!-- Título para redes sociales -->
+        <p class="h2 my-4 font-weight-bold ">Redes Sociales</p>
+        <!-- Enlace a Facebook con icono de PC y clase de margen superior -->
+        <div class="opacity-25">
+            <p class="h1"><i class="fas fa-desktop"></i>Facebook<br>
+                <a href="https://es-la.facebook.com/" target="_blank">             <!--Para centrarlo-->
+                    <img src="img_facebook.png" alt="Facebook" class="img-fluid h-30 w-30 my-4 imagen-con-borde "></p>
+                </a>
+        </div>
+        <!-- Enlace a Instagram con icono de PC y clase de margen superior -->
+        <div class="opacity-25">
+            <p class="h1"> <i class="fas fa-desktop"></i>Instagram <br>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="img_instagram.jpg" alt="Instagram" class="img-fluid h-30 w-30 my-4 imagen-con-borde "></p>
+                </a>    
+        </div>
+        </div>
+</body>
+</html>
